@@ -1,0 +1,260 @@
+body {
+    font-family: 'Prompt', sans-serif;
+}
+.navbar {
+    background-color: #4B162F;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-right {
+    padding-right: 10rem;
+}
+.navbar-nav > li > a {
+    color: #fff;
+    padding-top: 20px;
+}
+.navbar-nav > li > a:hover {
+    background-color: #CE000C;
+}
+.navbar-nav > li > a:focus {
+    background-color: #74CA42;
+    outline: 0;
+}
+.navbar-brand {
+    margin-left: 15rem;
+    width: 150px;
+    /*padding-top: 10px;*/
+}
+.jumbotron {
+    height: 800px;
+    padding-top: 10rem;
+}
+.content {
+    background-color: rgba(84, 14, 59, .4);
+    color: #fff;
+    margin: 15rem;
+    padding: 5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.content h1 {
+    margin-bottom: 5rem;
+    font-weight: 900;
+}
+.content p {
+    text-align: justify;
+}
+.poster {
+    background-image: url('../img/poster5.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#info {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+#info h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 7rem;
+}
+#info p {
+    text-align: justify;
+    font-size: 2rem;
+}
+#info h3 {
+    text-align: center;
+    margin-top: 5rem;
+}
+#info h4 {
+    text-align: center;
+    color: #74CA42;
+    font-weight: 900;
+    margin-top: 3rem;
+}
+#info h5 {
+    text-align: center;
+    margin-top: 3rem;
+}
+#ue {
+    margin-top: 7rem;
+}
+#ue img {
+    display: block;
+    margin: 0 auto;
+}
+#tires {
+    /*background-color: #8B1F1D;*/
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+#tires h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 7rem;
+    padding-top: 4rem;
+    /*color: #fff;*/
+}
+#tires h4 {
+    /*color: #fff;*/
+    padding-bottom: 5rem;
+    text-align: justify;
+    font-size: 2rem;
+}
+#tires img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+#contact {
+    background-color: #4B1A2A;
+    padding-top: 7rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+#contact h1 {
+    text-align: center;
+    margin-bottom: 7rem;
+    font-size: 7rem;
+    color: #fff;
+}
+#contact h3 {
+    color: #fff;
+    text-align: center;
+}
+#contact h4 {
+    color: #fff;
+    text-align: center;
+}
+#contact p {
+    color: #fff;
+    text-align: center;
+}
+#footer {
+    background-color: #333;
+    color: rgba(255,255,255,.3);
+    padding: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+.icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.logo-img {
+    width: 100%;
+    background-color: #fff;
+    padding: 5rem 1rem 5rem 1rem;
+    height: 150px;
+}
+#logistics {
+    /*background-color: #330E20;
+    color: #fff;*/
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+#logistics h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 7rem;
+    padding-top: 4rem;
+}
+#logistics p {
+    text-align: justify;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+#myCarousel {
+    margin-top: 5rem;
+}
+.contact-info {
+    padding-top: 8rem;
+}
+.map {
+    margin-bottom: 2rem;
+}
+.first {
+    /*background-color: #74CA42;*/
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.second {
+    /*background-color: #74CCa2;*/
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.third {
+    /*background-color: #733A42;*/
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+hr {
+  font-family: 'Glyphicons Halflings'; /* choose the font you like */
+  text-align: center; /* horizontal centering */
+  line-height: 0px; /* vertical centering */
+  height: 1px; /* gap between the lines */
+  font-size: 1em; /* choose font size you like */
+  border-width: 2px 0 0;
+  border-style: solid;
+  border-color: #fff;
+  margin: 20px 50px; /* 20px space above/below, 10px left/right */
+
+  /* ensure 1px gap between borders */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+hr:after {
+  content: "\e104"; /* section sign */
+  color: #fff;
+  display: inline; /* for vertical centering and background knockout */
+  background-color: #4B1A2A; /* same as background color */
+  padding: 0 0.5em; /* size of background color knockout */
+}
+
+/* opera doesn't render correctly. hide section sign */
+x:-o-prefocus, hr:after {
+  content: "";
+}
+#colored hr {
+    font-family: 'Glyphicons Halflings'; /* choose the font you like */
+    text-align: center; /* horizontal centering */
+    line-height: 0px; /* vertical centering */
+    height: 1px; /* gap between the lines */
+    font-size: 3em; /* choose font size you like */
+    border-width: 5px 0 0;
+    border-style: solid;
+    border-color: #4B162F;
+    margin: 20px 30rem; /* 20px space above/below, 10px left/right */
+    margin-bottom: 7rem;
+    margin-top: 3rem;
+
+    /* ensure 1px gap between borders */
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    }
+#colored hr:after {
+    content: "\e114";  /*section sign */
+    color: #4B162F;
+    display: inline; /* for vertical centering and background knockout */
+    background-color: #fff; /* same as background color */
+    padding: 0 0.5em; /* size of background color knockout */
+}
+
+/* opera doesn't render correctly. hide section sign */
+x:-o-prefocus, #colored hr:after {
+    content: "";
+}
